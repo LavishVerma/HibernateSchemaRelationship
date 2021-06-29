@@ -30,7 +30,7 @@ public class MainController {
 	
   @SuppressWarnings("null")
 @GetMapping("/testDatabase")
-  public void PostFunction()
+  public void getFunction()
   {
     User_Details user_details =new User_Details();
    
